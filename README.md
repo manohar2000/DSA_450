@@ -10,7 +10,7 @@ Link to Competitive Programming Series : [view](https://www.youtube.com/playlist
 
 Sno | Topic Name | My Solution | Logic Used | Date Completed |
 ----|------------|-------------|------------|----------------|
-1 | [Reverse Array](https://www.geeksforgeeks.org/write-a-program-to-reverse-an-array-or-string/) | [view](Arrays/reverse_array_recursively.cpp) | recursion, 2 pointer approach | 30 Nov 20 |
+
 
 ## Matrix
 
