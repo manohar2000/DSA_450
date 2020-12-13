@@ -13,6 +13,7 @@ struct Pair getminmax(int arr[],int low,int high)
 {
     struct Pair minimax,minimaxl,minimaxr;
     
+    // if there is only 1 element in the array asign min and max to that element
     if(low==high)
     {
         minimax.min = arr[low];
@@ -20,7 +21,7 @@ struct Pair getminmax(int arr[],int low,int high)
         
         return minimax;
     }
-    
+    // if there are 2 elements in the array, compare between them and assign the min and max
     if(high==low+1)
     {
         if(arr[low]>arr[high])
@@ -37,11 +38,13 @@ struct Pair getminmax(int arr[],int low,int high)
     return minimax;
     }
     
-
+    // for array having more than 2 elements
+    // split the array into two halves recurisevly until we have either one element or two elements in the array
     int mid = (low+high)/2;
     minimaxl = getminmax(arr, low,mid);
     minimaxr = getminmax(arr, mid+1,high);
     
+    //compare the min and max from left and right array and return the min and max element
     if(minimaxl.min>minimaxr.min)
     {
         minimax.min = minimaxr.min;
