@@ -10,6 +10,8 @@ Link to Competitive Programming Series : [view](https://www.youtube.com/playlist
 
 Sno | Topic Name | My Solution | Logic Used | Date Completed |
 ----|------------|-------------|------------|----------------|
+1 | Reverse array | [@reverse array](https://github.com/manohar2000/DSA_450/blob/main/Arrays/reverse%20array.cpp) | one index from start another from the last and swap continuously | 13th Dec |
+2 | Find the maximum and minimum element in an array | [@minmax element](https://github.com/manohar2000/DSA_450/blob/main/Arrays/min%20and%20max%20element%20with%20the%20least%20comparisions.cpp) | divide and conquer | 13th Dec| 
 
 
 ## Matrix
