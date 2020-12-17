@@ -19,9 +19,11 @@ Sno | Topic Name | My Solution | Logic Used | Other better approaches|All approa
 
 ## Matrix
 
-Sno | Topic Name | My Solution | Logic Used | Date Completed |
-----|------------|-------------|------------|----------------|
-
+Sno | Topic Name | My Solution | Logic Used | Other better approaches|All approaches| Date Completed |
+----|------------|-------------|------------|------------------------|--------------|----------------|
+ 1 | Spiral traversal | [@spiral_print](@https://github.com/manohar2000/DSA_450/blob/main/Matrix/spiralprint.cpp) | 4 indices in 4 corners of the matrix | DFS recurisve | [@spiralPrint](https://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/) | 14th Dec |
+ 2 | Search an element | [@staircase](https://github.com/manohar2000/CB-Algorithms/blob/main/arrays/2d-array/staircase_search.cpp) | start top right, if curr>k j-=1 else i+=1 | - | [@searching](https://www.geeksforgeeks.org/search-element-sorted-matrix/?ref=lbp) | 14th Dec |
+ 3 | Rotate matrix by 90 degrees | [@rotation](https://github.com/manohar2000/CB-Algorithms/blob/main/arrays/2d-array/rotate_array.cpp) | Reverse rows/columns then transpose | - | [@rotation](https://www.geeksforgeeks.org/rotate-a-matrix-by-90-degree-in-clockwise-direction-without-using-any-extra-space/?ref=lbp) | 14th Dec |
 
 ## Strings
 
