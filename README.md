@@ -14,6 +14,7 @@ Sno | Topic Name | My Solution | Logic Used | Other better approaches|All approa
 2 | Find the maximum and minimum element in an array | [@minmax element](https://github.com/manohar2000/DSA_450/blob/main/Arrays/minmax%20element%20with%20divide%20and%20conquer.cpp)| divide and conquer | pairs | [@Maximum and minimum of an array using minimum number of comparisons](https://www.geeksforgeeks.org/maximum-and-minimum-in-an-array/) |13th Dec| 
 3 | Find the maximum and minimum element in an array | [@minmax element](https://github.com/manohar2000/DSA_450/blob/main/Arrays/minmax%20element%20using%20pairs.cpp) | pairs |-| [@Maximum and minimum of an array using minimum number of comparisons](https://www.geeksforgeeks.org/maximum-and-minimum-in-an-array/) | 13th Dec|
 4 | Find the "Kth" max and min element of an array | [@Kth min element](https://github.com/manohar2000/DSA_450/blob/main/Arrays/kth%20smallest%20element.cpp) | in-built merge sort | min/max heap,quick select | [@kth smallest and largest element](https://www.geeksforgeeks.org/kth-smallestlargest-element-unsorted-array/?ref=lbp). Check all the 3 sets | 13th dec|
+5 | Trapping Rain water problem | [@rainwater trapping](https://github.com/manohar2000/DSA_450/blob/main/Arrays/rainwater_trapping.cpp) | min_of_height(building_in_left,buildings_in_right) - curr_height | stack | [@Rainwater Trapping](https://www.geeksforgeeks.org/trapping-rain-water/) |16th Dec|   
 
 
 ## Matrix
