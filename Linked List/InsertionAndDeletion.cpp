@@ -143,6 +143,8 @@ int main()
 
     // 200->75->100->50
     deleteAtMiddle(head, 3);
+    //deleteHead(head);
+    //deleteTail(head);
 
     node* temp = head;
     while(temp->next!=NULL)
