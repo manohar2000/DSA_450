@@ -117,7 +117,6 @@ int main()
 {
     node* root1 = buildTree();
     node* root2 = buildTree();
-
     
     mergeBST(root1, root2);
     return 0;
