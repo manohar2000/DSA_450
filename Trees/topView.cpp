@@ -1,6 +1,7 @@
 #include<bits/stdc++.h> 
 using namespace std; 
 
+
 class node
 {
     public:
@@ -37,7 +38,10 @@ node* buildTree()
 
 // the idea is to have an queue of type<node, hd> and store elements in bfs order.
 // Have a map with the hd as the key and their corresponding nodes. 
-// Finally, the first value of each key will be give the top for the particular hd. 
+// Finally, the first value of each key will be give the top for the particular hd.
+
+
+// for bottom view, we just need to replace the value of hd with new value, if encoutered
 
 vector<int> topView(node* root)
 {
@@ -54,10 +58,15 @@ vector<int> topView(node* root)
         {
             pair<node*, int> front = q.front();
             q.pop();
+
+            // for bottom view :
+            // m[front.second] = front.first->data; instead of the below if condition
+
             if(m.find(front.second)==m.end())
             {
                 m[front.second] = front.first->data;
             }
+
             
             if(front.first->left) q.push(make_pair(front.first->left, front.second-1));
             if(front.first->right) q.push(make_pair(front.first->right, front.second+1));
