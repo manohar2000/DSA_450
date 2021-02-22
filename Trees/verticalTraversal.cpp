@@ -2,7 +2,6 @@
 using namespace std; 
 
 // Time complexity - O(nlog(n)), space complexity O(n)
-// This question can be modified to print the top view of a tree. In that case just print the first node of each level.
 class node
 {
     public:
