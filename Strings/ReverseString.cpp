@@ -21,7 +21,6 @@ void reverseString(vector<char>& s)
 
 int main()
 {
-
     vector<char> s = {'a','b','c','d'};
     reverseString(s);
 }
