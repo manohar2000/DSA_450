@@ -4,54 +4,54 @@ using namespace std;
 
 int a[1000][1000];
 
-void spiralprint(int a[][1000], int m, int n)
+void spiralprint(int matrix[][1000], int r, int c)
 {
     // LOGIC : Take 4 pointers at the 4 corners of the matrix to print the top row, rightmost row, bottom row and leftmost row consecutively
     // increment startRow and startColumn to move inside the matrix
     // decrment endRow and endColumn to move inside the matrix
 
-    int startCol = 0;
-    int endCol = n-1;
-    int startRow = 0;
-    int endRow = m-1;
+    int left = 0;
+    int top = 0;
     
-    while(startCol<=endCol && startRow<=endRow)
+    
+    while(left<c && top<r)
     {
-        // printing the topmost row
-        for(int i=startCol;i<=endCol;i++)
+        // top row
+        for(int i=left;i<c;i++)
         {
-            cout<<a[startRow][i]<<" ";
+            cout<<(matrix[top][i]);
         }
-        startRow++; 
+        top++;
         
-        // printing the rightmost row
-        for(int i=startRow;i<=endRow;i++)
+        // right row
+        for(int i=top;i<r;i++)
         {
-            cout<<a[i][endCol]<<" ";
+            cout<<(matrix[i][c-1]);
         }
-        endCol--;
+        c--;
         
-        // printing the bottom most row
-        if(endRow > startRow) // to avoid printing repition of element of error in case of array size like 3*5
+        
+        //bottom row
+        if(top<r)
         {
-            for(int i=endCol;i>=startCol;i--)
+            for(int i=(c-1);i>=left;i--)
             {
-                cout<<a[endRow][i]<<" ";
+                cout<<(matrix[r-1][i]);
             }
-            endRow--;
+            r--;
         }
         
-        // printing the left most row
-        if(endCol>startCol) // to avoid printing repition of element of error in case of array size like 3*5
+        // left row
+        if(left<c)
         {
-            for(int i=endRow;i>=startRow;i--)
+            for(int i=(r-1);i>=top;i--)
             {
-                cout<<a[i][startCol]<<" ";
-            }        
-        startCol++;
+                cout<<(matrix[i][left]);
+            }
+            left++;
         }
     }
-    
+            
 }
 
 
