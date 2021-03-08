@@ -21,6 +21,11 @@ using namespace std;
 int getMinDiff(int arr[], int n, int k)
 {
     sort(arr,arr+n);
+    for(int i=0;i<n;i++)
+    {
+        cout<<arr[i]<<" ";
+    }
+    cout<<endl;
 
     int ans = arr[n-1] - arr[0];
     for(int i=1;i<n;i++)
@@ -28,8 +33,8 @@ int getMinDiff(int arr[], int n, int k)
         int small = min(arr[0]+k, arr[i]-k );
         int large = max(arr[n-1]-k, arr[i-1]+k);
 
-        // if, after applying add/sub, negative height values are not allowed then:
-        // if(small<0) continue;
+        //if, after applying add/sub, negative height values are not allowed then:
+        if(small<0) continue;
 
         ans = min(ans, large-small);
     }
