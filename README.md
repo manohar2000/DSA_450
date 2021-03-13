@@ -47,6 +47,22 @@ Sno | Topic Name | My Solution | Logic Used | Date Completed |
 
 Sno | Topic Name | My Solution | Logic Used | Date Completed |
 ----|------------|-------------|------------|----------------|
+1 | Level Order Traversal | [view](leverOrder.cpp) | queue | 13th March |
+2 | Reverse Level Order Traversal | [view](ReverseLevelOrder.cpp) | queue and stack | 20th Feb |
+3 | Height of a Tree | [view](height.cpp) |  recursion | 13th March |
+4 | Diameter of a Tree | [view](diameter.cpp) | diameter can lie in 3 places | 13th March | 
+5 | Mirror of a Tree | [view](mirrorTree.cpp) | recursion | 20th Feb |
+6 | Inorder Iterative | [view](inorderIterative.cpp) | 
+7 | Preorder Iterative | [view](PreOrderIterative.cpp) |
+8 | Postorder Iterative | [view](PostOrderIterative.cpp) |
+9 | Left View | [view](leftView.cpp) | 
+10 | Top View | [view](topView.cpp) |
+11 | Bottom View | [view](topView.cpp) |
+12 | Zig-Zag Traversal | [view](zigzagTraversal.cpp) |
+13 | Tree balanced or not | [view](balanced.cpp) |
+14 | Diagonal Traversal | [view](diagonalTravesal.cpp) |  
+15 | Binary Tree into DLL | [view](FlattenBSTtoLL.cpp) |
+16 | Find LCA | [view](closestleaf.cpp) | 
 
 
 ## Binary Search Trees
