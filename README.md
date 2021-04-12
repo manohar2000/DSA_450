@@ -9,7 +9,7 @@ Link to Competitive Programming Series : [view](https://www.youtube.com/playlist
 ## Arrays
 
 Sno | Topic Name | My Solution | Logic Used | Date Completed |
-----|------------|-------------|------------|------------------------|--------------|----------------|
+----|------------|-------------|------------|------------------------|
 1| Reverse array | [@reverse array](https://github.com/manohar2000/DSA_450/blob/main/Arrays/reverse%20array.cpp) | one index from start another from the last and swap continuously | 13th Dec |
 2 | Find max/min | [@minmax element](https://github.com/manohar2000/DSA_450/blob/main/Arrays/minmax%20element%20with%20divide%20and%20conquer.cpp)| divide and conquer | 13th Dec | 
 3 | Find max/min | [@minmax element](https://github.com/manohar2000/DSA_450/blob/main/Arrays/minmax%20element%20using%20pairs.cpp) | pairs | 13th Dec |
@@ -17,8 +17,7 @@ Sno | Topic Name | My Solution | Logic Used | Date Completed |
 5 | Trapping Rain water | [@rainwater trapping](https://github.com/manohar2000/DSA_450/blob/main/Arrays/rainwater_trapping.cpp) | min_of_height(building_in_left,buildings_in_right) - curr_height | 16th Dec |
 6 | Sort array of 0,1 and 2 | [view](Arrays/Sort012.cpp) | count and replace | 1st March |
 7 | Sort such that all neg elements come before pos elements | [view](Arrays/sortnegpos.cpp) | partitioning of quick sort | 1st March | 
-8 | Power of N(large N) | [view](Arrays/powerofN.cpp) | right shift and bitwise AND operator |3rd March |
-9 | Rotation of an array K times | [view](Arrays/rotationofarrByk.cpp) |  | 
+8 | Power of N(large N) | [view](Arrays/powerofN.cpp) | right shift and bitwise AND operator | 3rd March |
 
 
 ## Matrix
