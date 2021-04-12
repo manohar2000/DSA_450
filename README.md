@@ -8,13 +8,17 @@ Link to Competitive Programming Series : [view](https://www.youtube.com/playlist
 
 ## Arrays
 
-Sno | Topic Name | My Solution | Logic Used | Other better approaches|All approaches| Date Completed |
+Sno | Topic Name | My Solution | Logic Used | Date Completed |
 ----|------------|-------------|------------|------------------------|--------------|----------------|
-1| Reverse array | [@reverse array](https://github.com/manohar2000/DSA_450/blob/main/Arrays/reverse%20array.cpp) | one index from start another from the last and swap continuously | - | [@reverse array/string](https://www.geeksforgeeks.org/write-a-program-to-reverse-an-array-or-string/) |13th Dec |
-2 | Find max/min | [@minmax element](https://github.com/manohar2000/DSA_450/blob/main/Arrays/minmax%20element%20with%20divide%20and%20conquer.cpp)| divide and conquer | pairs | [@Max/minimum of array, min comparisions](https://www.geeksforgeeks.org/maximum-and-minimum-in-an-array/) |13th Dec| 
-3 | Find max/min | [@minmax element](https://github.com/manohar2000/DSA_450/blob/main/Arrays/minmax%20element%20using%20pairs.cpp) | pairs |-| [@@Max/minimum of array, min comparisions](https://www.geeksforgeeks.org/maximum-and-minimum-in-an-array/) | 13th Dec|
-4 | "Kth" max/min | [@Kth min element](https://github.com/manohar2000/DSA_450/blob/main/Arrays/kth%20smallest%20element.cpp) | in-built merge sort | min/max heap,quick select | [@kth small/larg element](https://www.geeksforgeeks.org/kth-smallestlargest-element-unsorted-array/?ref=lbp). Check all the 3 sets | 13th dec|
-5 | Trapping Rain water | [@rainwater trapping](https://github.com/manohar2000/DSA_450/blob/main/Arrays/rainwater_trapping.cpp) | min_of_height(building_in_left,buildings_in_right) - curr_height | stack | [@Rainwater Trapping](https://www.geeksforgeeks.org/trapping-rain-water/) |16th Dec|   
+1| Reverse array | [@reverse array](https://github.com/manohar2000/DSA_450/blob/main/Arrays/reverse%20array.cpp) | one index from start another from the last and swap continuously | 13th Dec |
+2 | Find max/min | [@minmax element](https://github.com/manohar2000/DSA_450/blob/main/Arrays/minmax%20element%20with%20divide%20and%20conquer.cpp)| divide and conquer | 13th Dec | 
+3 | Find max/min | [@minmax element](https://github.com/manohar2000/DSA_450/blob/main/Arrays/minmax%20element%20using%20pairs.cpp) | pairs | 13th Dec |
+4 | "Kth" max/min | [@Kth min element](https://github.com/manohar2000/DSA_450/blob/main/Arrays/kth%20smallest%20element.cpp) | in-built merge sort  | 13th dec|
+5 | Trapping Rain water | [@rainwater trapping](https://github.com/manohar2000/DSA_450/blob/main/Arrays/rainwater_trapping.cpp) | min_of_height(building_in_left,buildings_in_right) - curr_height | 16th Dec |
+6 | Sort array of 0,1 and 2 | [view](Arrays/Sort012.cpp) | count and replace | 1st March |
+7 | Sort such that all neg elements come before pos elements | [view](Arrays/sortnegpos.cpp) | partitioning of quick sort | 1st March | 
+8 | Power of N(large N) | [view](Arrays/powerofN.cpp) | right shift and bitwise AND operator |3rd March |
+9 | Rotation of an array K times | [view](Arrays/rotationofarrByk.cpp) |  | 
 
 
 ## Matrix
@@ -47,22 +51,22 @@ Sno | Topic Name | My Solution | Logic Used | Date Completed |
 
 Sno | Topic Name | My Solution | Logic Used | Date Completed |
 ----|------------|-------------|------------|----------------|
-1 | Level Order Traversal | [view](leverOrder.cpp) | queue | 13th March |
-2 | Reverse Level Order Traversal | [view](ReverseLevelOrder.cpp) | queue and stack | 20th Feb |
-3 | Height of a Tree | [view](height.cpp) |  recursion | 13th March |
-4 | Diameter of a Tree | [view](diameter.cpp) | diameter can lie in 3 places | 13th March | 
-5 | Mirror of a Tree | [view](mirrorTree.cpp) | recursion | 20th Feb |
-6 | Inorder Iterative | [view](inorderIterative.cpp) | 
-7 | Preorder Iterative | [view](PreOrderIterative.cpp) |
-8 | Postorder Iterative | [view](PostOrderIterative.cpp) |
-9 | Left View | [view](leftView.cpp) | 
-10 | Top View | [view](topView.cpp) |
-11 | Bottom View | [view](topView.cpp) |
-12 | Zig-Zag Traversal | [view](zigzagTraversal.cpp) |
-13 | Tree balanced or not | [view](balanced.cpp) |
-14 | Diagonal Traversal | [view](diagonalTravesal.cpp) |  
-15 | Binary Tree into DLL | [view](FlattenBSTtoLL.cpp) |
-16 | Find LCA | [view](closestleaf.cpp) | 
+1 | Level Order Traversal | [view](Trees/leverOrder.cpp) | queue | 13th March |
+2 | Reverse Level Order Traversal | [view](Trees/ReverseLevelOrder.cpp) | queue and stack | 20th Feb |
+3 | Height of a Tree | [view](Trees/height.cpp) |  recursion | 13th March |
+4 | Diameter of a Tree | [view](Trees/diameter.cpp) | diameter can lie in 3 places | 13th March | 
+5 | Mirror of a Tree | [view](Trees/mirrorTree.cpp) | recursion | 20th Feb |
+6 | Inorder Iterative | [view](Trees/inorderIterative.cpp) | 
+7 | Preorder Iterative | [view](Trees/PreOrderIterative.cpp) |
+8 | Postorder Iterative | [view](Trees/PostOrderIterative.cpp) |
+9 | Left View | [view](Trees/leftView.cpp) | 
+10 | Top View | [view](Trees/topView.cpp) |
+11 | Bottom View | [view](Trees/topView.cpp) |
+12 | Zig-Zag Traversal | [view](Trees/zigzagTraversal.cpp) |
+13 | Tree balanced or not | [view](Trees/balanced.cpp) |
+14 | Diagonal Traversal | [view](Trees/diagonalTravesal.cpp) |  
+15 | Binary Tree into DLL | [view](Trees/FlattenBSTtoLL.cpp) |
+16 | Find LCA | [view](Trees/closestleaf.cpp) | 
 
 
 ## Binary Search Trees
