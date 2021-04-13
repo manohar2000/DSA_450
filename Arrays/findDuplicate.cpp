@@ -9,7 +9,7 @@ Output: 2
 class Solution {
 public:
     /*
-    This question can be done in O(n**2), sorting the array and 2ptr(O(log(n))),
+    This question can be done in O(n**2), sorting the array and 2ptr(O(nlog(n))),
     else we can keep a freq array.
     The freq array can be a hash map. But, since, we have been given that the elements
     will be from [0,n] only, we can use this to keep a count by creating a array of it.

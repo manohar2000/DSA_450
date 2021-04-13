@@ -18,6 +18,10 @@ Sno | Topic Name | My Solution | Logic Used | Date Completed |
 6 | Sort array of 0,1 and 2 | [view](Arrays/Sort012.cpp) | count and replace | 1st March |
 7 | Sort such that all neg elements come before pos elements | [view](Arrays/sortnegpos.cpp) | partitioning of quick sort | 1st March | 
 8 | Power of N(large N) | [view](Arrays/powerofN.cpp) | right shift and bitwise AND operator | 3rd March |
+9 | Rotate array by K positions | [view](Arrays/rotationofarrByk.cpp) | gcd; juggling algo | 5th March |
+10 | Min Heights | [view](Arrays/MinHeights.cpp) | sorting; iterating and updating small and large vars | 6th March | 
+11 | Next Permutation | [view](Arrays/NextPermutation.cpp) | finding the break in decreasing seq from last, swapping with next greatest element and reversing the array | 7th March | 
+12 | find duplicate elements in array | [view](findDuplicate.cpp) | floyd cycle detection algo | 7th March |
 
 
 ## Matrix
@@ -50,7 +54,7 @@ Sno | Topic Name | My Solution | Logic Used | Date Completed |
 
 Sno | Topic Name | My Solution | Logic Used | Date Completed |
 ----|------------|-------------|------------|----------------|
-1 | Level Order Traversal | [view](Trees/leverOrder.cpp) | queue | 13th March |
+1 | Level Order Traversal | [view](Trees/levelOrder.cpp) | queue | 13th March |
 2 | Reverse Level Order Traversal | [view](Trees/ReverseLevelOrder.cpp) | queue and stack | 20th Feb |
 3 | Height of a Tree | [view](Trees/height.cpp) |  recursion | 13th March |
 4 | Diameter of a Tree | [view](Trees/diameter.cpp) | diameter can lie in 3 places | 13th March | 
