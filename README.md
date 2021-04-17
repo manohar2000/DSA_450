@@ -10,18 +10,33 @@ Link to Competitive Programming Series : [view](https://www.youtube.com/playlist
 
 Sno | Topic Name | My Solution | Logic Used | Date Completed |
 ----|------------|-------------|------------|------------------------|
-1| Reverse array | [@reverse array](https://github.com/manohar2000/DSA_450/blob/main/Arrays/reverse%20array.cpp) | one index from start another from the last and swap continuously | 13th Dec |
-2 | Find max/min | [@minmax element](https://github.com/manohar2000/DSA_450/blob/main/Arrays/minmax%20element%20with%20divide%20and%20conquer.cpp)| divide and conquer | 13th Dec | 
-3 | Find max/min | [@minmax element](https://github.com/manohar2000/DSA_450/blob/main/Arrays/minmax%20element%20using%20pairs.cpp) | pairs | 13th Dec |
-4 | "Kth" max/min | [@Kth min element](https://github.com/manohar2000/DSA_450/blob/main/Arrays/kth%20smallest%20element.cpp) | in-built merge sort  | 13th dec|
-5 | Trapping Rain water | [@rainwater trapping](https://github.com/manohar2000/DSA_450/blob/main/Arrays/rainwater_trapping.cpp) | min_of_height(building_in_left,buildings_in_right) - curr_height | 16th Dec |
-6 | Sort array of 0,1 and 2 | [view](Arrays/Sort012.cpp) | count and replace | 1st March |
-7 | Sort such that all neg elements come before pos elements | [view](Arrays/sortnegpos.cpp) | partitioning of quick sort | 1st March | 
-8 | Power of N(large N) | [view](Arrays/powerofN.cpp) | right shift and bitwise AND operator | 3rd March |
-9 | Rotate array by K positions | [view](Arrays/rotationofarrByk.cpp) | gcd; juggling algo | 5th March |
-10 | Min Heights | [view](Arrays/MinHeights.cpp) | sorting; iterating and updating small and large vars | 6th March | 
-11 | Next Permutation | [view](Arrays/NextPermutation.cpp) | finding the break in decreasing seq from last, swapping with next greatest element and reversing the array | 7th March | 
-12 | find duplicate elements in array | [view](findDuplicate.cpp) | floyd cycle detection algo | 7th March |
+1| Reverse array | [view](Arrays/reverse%20array.cpp) | One index from start another from the last and swap continuously | 13th Dec |
+2 | Find max/min | [view](Arrays/minmax%20element%20with%20divide%20and%20conquer.cpp)| Divide and conquer | 13th Dec | 
+3 | Find max/min | [view](Arrays/minmax%20element%20using%20pairs.cpp) | Pairs | 13th Dec |
+4 | Kth max/min | [view](Arrays/kth%20smallest%20element.cpp) | In-built merge sort  | 13th Dec|
+5 | Trapping Rain water | [view](Arrays/rainwater_trapping.cpp) | min_of_height(building_in_left,buildings_in_right) - curr_height | 16th Dec |
+6 | Sort array of 0,1 and 2 | [view](Arrays/Sort012.cpp) | Count and replace | 1st March |
+7 | Sort such that all neg elements come before pos elements | [view](Arrays/sortnegpos.cpp) | Partitioning of quick sort | 1st March | 
+8 | Power of N(large N) | [view](Arrays/powerofN.cpp) | Right shift and bitwise AND operator | 3rd March |
+9 | Rotate array by K positions | [view](Arrays/rotationofarrByk.cpp) | GCD; juggling algo | 5th March |
+10 | Min Heights | [view](Arrays/MinHeights.cpp) | Sorting; iterating and updating small and large vars | 6th March | 
+11 | Next Permutation | [view](Arrays/NextPermutation.cpp) | Finding the break in decreasing seq from last, swapping with next greatest element and reversing the array | 7th March | 
+12 | find duplicate elements in array | [view](Arrays/findDuplicate.cpp) | Floyd cycle detection algo | 7th March |
+13 | Rotation of array by K | [view](Arrays/rotationofarrByk.cpp) | Juggling algorithm | 7th March | 
+14 | Jump Game 2 | [view](Arrays/JumpGame2.cpp) | Top-down dp; 3 vars that keep a count of jumps, steps and maxReach | 8th March |
+15 | Merge 2 sorted arrays without extra space | [view](Arrays/mergeArrays.cpp)| Step algorithm |8th March | 
+16 | Merge Intervals | [view](Arrays/mergeIntervals.cpp) | Consecutively comparing the end interval of curr and start interval of next set | 9th March |
+17 | Count Inversions | [view](Arrays/countInversions.cpp) | Enhanced merge sort | 10th March |
+18 | Buy Sell Stock | [view](Arrays/BuySellStocks.cpp) | 2 variables to keep a track of the min element and max diff | 11th March |
+19 | Count Pairs sum equal to K | [view](Arrays/countpairs.cpp) | Hashing | 11th March |
+20 | Common Elements in 3 sorted arrays | [view](Arrays/CommonElements.cpp) | Variable to keep a track of the previous common element and 3 pointers for each of the array | 11th March | 
+21 | Rearrange array in alternating pos/neg elements | [view](Arrays/rearrange.cpp) | Partitioning followed by swapping | 13th March |
+22 | Factorial of a large number | [view](Arrays/largeFactorial.cpp) | Storing results in array rather a interger | 14th March | 
+23 | len of longest consecutive numbers in an array | [view](Arrays/longestConsSeq.cpp) | storing all numbers in a set and referencing from it | 16th March | 
+24 | Max product subarray | [view](Arrays/maxProduct.cpp) | storing min and max element and iterating through the array | 16th March |
+25 | Triplet in array with sum K exists or not | [view](Arrays/triplet.cpp) | sort array and 2 pointer approach | 17th March | 
+26 | Majority Element | [view](Arrays/majorityelementII.cpp) | creating a array of k-1 elements and using a tetris like approach to store and replace elements. Lastly checking the occurences of the elements in the temp array | 17th March |
+
 
 
 ## Matrix

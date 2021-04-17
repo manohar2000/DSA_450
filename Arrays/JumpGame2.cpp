@@ -66,8 +66,8 @@ public:
  The steps var is used to iterate through the array and eventually reach the end of the array. 
  The maxReach var keeps the value of the maxPossible distance we can cover from our current ith position
  Finally, the jump is our answer.
- Once the steps are exhausted i.e steps==0, it implis that we must have/should take a jump therefore we increase jump var
- To keep continuing in the array we update the steps var with maxSteps - i. 
+ Once the steps are exhausted i.e steps==0, it implies that we must have/should take a jump therefore we increase jump var
+ To keep continiung in the array we update the steps var with maxSteps - i. 
  If we are not able to reach the curr indice. i.e we have exhausted our steps and our maxReach<=i then it means
  that we cannot move forward.
 */

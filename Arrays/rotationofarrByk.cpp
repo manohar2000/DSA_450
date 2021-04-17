@@ -24,7 +24,7 @@ public:
     {
         int n = nums.size();
         k = k%n;
-        k = n-k;
+        k = n-k; // for rotating the array to the right
         int g_c_d = gcd(n,k);
         for(int i=0;i<g_c_d;i++)
         {
