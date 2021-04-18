@@ -37,7 +37,8 @@ Sno | Topic Name | My Solution | Logic Used | Date Completed |
 25 | Triplet in array with sum K exists or not | [view](Arrays/triplet.cpp) | sort array and 2 pointer approach | 17th March | 
 26 | Majority Element | [view](Arrays/majorityelementII.cpp) | creating a array of k-1 elements and using a tetris like approach to store and replace elements. Lastly checking the occurences of the elements in the temp array | 17th March |
 27 | Max Circular Subarray Sum | [view](Arrays/maxCircularSum.cpp) | max(kadane's algo, (sumofArray + maxsubrray sum of inverted array)) | 18th March |
-
+28 | Smallest subarray with sum greater than x | [view](Arrays/smallestSubArr.cpp) | two pointer approach | 18th April | 
+29 | Three way partition | [view](Arrays/threeWayPartition.cpp) | Dutch National Flag algo(two pointer approach) | 18th April |
 
 
 ## Matrix
