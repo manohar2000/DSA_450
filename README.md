@@ -39,7 +39,7 @@ Sno | Topic Name | My Solution | Logic Used | Date Completed |
 27 | Max Circular Subarray Sum | [view](Arrays/maxCircularSum.cpp) | max(kadane's algo, (sumofArray + maxsubrray sum of inverted array)) | 18th March |
 28 | Smallest subarray with sum greater than x | [view](Arrays/smallestSubArr.cpp) | two pointer approach | 18th April | 
 29 | Three way partition | [view](Arrays/threeWayPartition.cpp) | Dutch National Flag algo(two pointer approach) | 18th April |
-
+30 | Median of 2 sorted arrays | [view](Arrays/Medianof2Arr.cpp) | min1,max1 and min2,max2 such max1<=min2 and max2<=min1 | 19th April |
 
 ## Matrix
 
