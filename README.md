@@ -124,6 +124,7 @@ Sno | Topic Name | My Solution | Logic Used | Date Completed |
 Sno | Topic Name | My Solution | Logic Used | Date Completed |
 ----|------------|-------------|------------|----------------|
 1 | Creating a graph with weighted edges | [view](Graphs/CreatingaGraph.cpp) | map<vector<T,int>> | 22nd April |
+2 | BFS traversal | [view](Graphs/bfsTraversal.cpp) | queue and a map for visited nodes | 22nd April | 
  
 
 
