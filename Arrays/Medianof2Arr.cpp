@@ -29,23 +29,24 @@ public:
             
             int i1 = (start+end)/2;
             int i2 = ( nums1.size() + nums2.size() + 1)/2 - i1;
-            
+
+            int min1;
+            if(i1==nums1.size()) min1 = INT_MAX;
+            else min1 = nums1[i1];
+
             int max1;
             if(i1==0) max1 = INT_MIN;
             else max1 = nums1[i1-1];
             
-            int min1;
-            if(i1==nums1.size()) min1 = INT_MAX;
-            else min1 = nums1[i1];
-            
+            int min2;
+            if(i2==nums2.size()) min2 = INT_MAX;
+            else min2 = nums2[i2];            
             
             int max2;
             if(i2==0) max2 = INT_MIN;
             else max2 = nums2[i2-1];
             
-            int min2;
-            if(i2==nums2.size()) min2 = INT_MAX;
-            else min2 = nums2[i2];
+
             
             // cout<<min1<<" "<<max1<<" "<<min2<<" "<<max2<<endl;            
             

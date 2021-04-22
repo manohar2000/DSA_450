@@ -123,6 +123,8 @@ Sno | Topic Name | My Solution | Logic Used | Date Completed |
 
 Sno | Topic Name | My Solution | Logic Used | Date Completed |
 ----|------------|-------------|------------|----------------|
+1 | Creating a graph with weighted edges | [view](Graphs/CreatingaGraph.cpp) | map<vector<T,int>> | 22nd April |
+ 
 
 
 ## Trie
