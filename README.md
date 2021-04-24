@@ -127,7 +127,7 @@ Sno | Topic Name | My Solution | Logic Used | Date Completed |
 2 | BFS traversal | [view](Graphs/bfsTraversal.cpp) | queue and a map for visited nodes | 22nd April | 
 3 | DFS traversal | [view](Graphs/dfsTraversal.cpp) | recursion and map for visited nodes | 23rd April |
 4 | Cyclce Detection using DFS | [view](Graphs/cycledetectionDFS.cpp) |  instack and visited map | 24th April | 
-
+5 | Cycle Detection using BFS | [view](Graphs/cycleDetectionBFS.cpp) | counting the incoming edges and queue | 24th April |
 
 ## Trie
 
