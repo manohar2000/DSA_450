@@ -128,6 +128,7 @@ Sno | Topic Name | My Solution | Logic Used | Date Completed |
 3 | DFS traversal | [view](Graphs/dfsTraversal.cpp) | recursion and map for visited nodes | 23rd April |
 4 | Cyclce Detection using DFS | [view](Graphs/cycledetectionDFS.cpp) |  instack and visited map | 24th April | 
 5 | Cycle Detection using BFS | [view](Graphs/cycleDetectionBFS.cpp) | counting the incoming edges and queue | 24th April |
+6 | Cycle Detection in an Undirected Graph using DFS | [view](Graphs/cycleDetectionUndirDFS.cpp) | recursion and visited map | 26th April | 
 
 ## Trie
 
