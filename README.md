@@ -129,7 +129,8 @@ Sno | Topic Name | My Solution | Logic Used | Date Completed |
 4 | Cyclce Detection using DFS | [view](Graphs/cycledetectionDFS.cpp) |  instack and visited map | 24th April | 
 5 | Cycle Detection using BFS | [view](Graphs/cycleDetectionBFS.cpp) | counting the incoming edges and queue | 24th April |
 6 | Cycle Detection in an undirected graph using DFS | [view](Graphs/cycleDetectionUndirDFS.cpp) | recursion and visited map | 26th April |
-7 | Cycle Detection in an undirected graph using BFS | [view](CycleDetectionUndirBFS.cpp) | queue and visited map | 26th April |
+7 | Cycle Detection in an undirected graph using BFS | [view](Graphs/CycleDetectionUndirBFS.cpp) | queue and visited map | 26th April |
+8 | Dijkstra Algorithm | [view](Graphs/dijkstra.cpp) | using dest array and set | 26th April |
 
 ## Trie
 
