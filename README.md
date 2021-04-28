@@ -133,6 +133,7 @@ Sno | Topic Name | My Solution | Logic Used | Date Completed |
 8 | Dijkstra Algorithm | [view](Graphs/dijkstra.cpp) | using distance array and set to access the node with lowest distance | 26th April |
 9 | Topological Sort using BFS| [view](Graphs/topoSortBFS.cpp) | Kahn’s algorithm-counting the total no. of incoming nodes and queue | 26th April |
 10 | Find the number of islands | [view](Graphs/noOfIslands.cpp) | bfs traversal | 27th April |
+11 | Alien Dictionary | [view](Graphs/AlienDict.cpp) | making a graph for mismatched chars for every cons words and topological sort | 28th April |
 
 
 ## Trie
