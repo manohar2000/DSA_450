@@ -136,6 +136,7 @@ Sno | Topic Name | My Solution | Logic Used | Date Completed |
 11 | Alien Dictionary | [view](Graphs/AlienDict.cpp) | making a graph for mismatched chars for every cons words and topological sort | 28th April |
 12 | Strongly Connected Components | [view](Graphs/SCC.cpp) | kosaraju's algorithm | 28th April |
 13 | Floyd Warshal algorithm | [view](Graphs/flyodWarshal.cpp) | floyd warshall algo | 28th April |
+14 | Graph Coloring problem | [view](Graphs/graphColoring.cpp) | array of alloted colors and available colors | 29th April |
 
 
 ## Trie
