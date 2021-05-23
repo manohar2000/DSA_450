@@ -146,10 +146,11 @@ Sno | Topic Name | My Solution | Logic Used | Date Completed |
 Sno | Topic Name | My Solution | Logic Used | Date Completed |
 ----|------------|-------------|------------|----------------|
 
-## Dynamic Programming
-
+## Dynamic Programming(Pep Coding)
 Sno | Topic Name | My Solution | Logic Used | Date Completed |
 ----|------------|-------------|------------|----------------|
+ 1 | Climb Stairs With Minimum Moves | [view](DP/ClimbStairsMin.cpp)  | bottom up DP | 23rd May |
+ 
 
 ## Bit Manipulation
 
