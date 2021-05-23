@@ -151,6 +151,9 @@ Sno | Topic Name | My Solution | Logic Used | Date Completed |
 ----|------------|-------------|------------|----------------|
  1 | Climb Stairs With Minimum Moves | [view](DP/ClimbStairsMin.cpp)  | bottom up DP | 23rd May |
  2 | Target Sum | [view](DP/targetsum.cpp) | 2d dp array | 23rd May | 
+ 3 | Coin Change Combinations | [view](DP/coinchangeComb.cpp) | DP array where each state represents ways to achieve the curr den using ith denom | 23rd May |
+ 4 | Coin Change Permutations | [view](DP/coinchangecomb.cpp) | DP array where each state represent total permutations for that target | 
+
 
 ## Bit Manipulation
 
