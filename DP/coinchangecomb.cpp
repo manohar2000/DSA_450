@@ -23,7 +23,7 @@ Sample Output
 #include<bits/stdc++.h>
 using namespace std;
 
-int permutations(int denom[], int n, int amount)
+int combination(int denom[], int n, int amount)
 {
     int dp[amount+1] = {};
     
@@ -57,7 +57,7 @@ int main()
     int amount;
     cin>>amount;
     
-    cout<<permutations(den,n,amount)<<endl;
+    cout<<combination(den,n,amount)<<endl;
     
     
 }
