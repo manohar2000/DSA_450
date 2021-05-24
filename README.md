@@ -154,7 +154,7 @@ Sno | Topic Name | My Solution | Logic Used | Date Completed |
  3 | Coin Change Combinations | [view](DP/coinchangeComb.cpp) | DP array where each state represents ways to achieve the curr den using ith denom | 23rd May |
  4 | Coin Change Permutations | [view](DP/coinchangecomb.cpp) | DP array where each state represents total permutations for that target | 23rd May |
  5 | 0-1 Knapsack | [view](DP/0-1Knapsack.cpp) | 2d dp array where each state represents max value that can achieved using weights till the ith weight | 24th May | 
-
+ 6 | Unbounded Knapsack | [view](DP/unboundedKnapsack.cpp) | 1d dp array. for each target knapsack we check with all the weights and replace it with the maximum value | 24th May |
 
 ## Bit Manipulation
 
