@@ -99,6 +99,7 @@ Sno | Topic Name | My Solution | Logic Used | Date Completed |
 
 Sno | Topic Name | My Solution | Logic Used | Date Completed |
 ----|------------|-------------|------------|----------------|
+1 | Fractional Knapsack | [view](Greedy/fractionalKnapsack.cpp) | selecting items based on value/weight ratio | 24th May |
 
 
 ## Backtracking
