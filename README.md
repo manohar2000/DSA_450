@@ -53,7 +53,7 @@ Sno | Topic Name | My Solution | Logic Used | Other better approaches|All approa
 
 Sno | Topic Name | My Solution | Logic Used | Date Completed |
 ----|------------|-------------|------------|----------------|
-
+1 | Geneate all Sub seuqneces | [view](Strings/getsubseq.cpp) | recursion | 26th May |
 
 ## Searching and Sorting
 
